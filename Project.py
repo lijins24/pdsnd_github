@@ -23,7 +23,7 @@ def get_filters():
         print('invalid input! Please make sure to capitalize the initials!')
         city=input('What is the choice of your city(Chicago, New York City, or Washington): ')
     # TO DO: get user input for month (all, january, february, ... , june)
-    month=input('What is the choice of your month? (All, January, February, March, April, May, June): ')
+    month=input('Which month would you like to choose? (All, January, February, March, April, May, June): ')
 
     while month not in ('All','January','February','March','April','May','June'):
         print('invalid input! Please make sure to capitalize the initials!')
